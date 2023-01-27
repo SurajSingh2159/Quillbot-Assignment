@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif !important;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 12px;
+  width: 100%;
+  height: 100%;
+}
+.test {
+  text-align: center;
+  margin: auto;
+  .heading {
+    margin: 30px 15px 15px;
+  }
+  .Upgrade-button {
+    margin-top: 20px;
+    text-transform: none;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: #499557;
+    width: 300px;
+    border: none;
+    height: 40px;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 700;
+    &:hover {
+      background-color: #41894e;
+      cursor: pointer;
+    }
+  }
+}
+.progress {
+    background-color: rgb(233, 233, 233) !important;
+    border-radius: .5rem !important;
+    height: 3px !important;
+    max-width: 400px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #499557 !important;
+    border-radius: 1rem;
+    transition: 2s ease !important;
+  transition-delay: 1s !important;
+ 
+}
+
+ul{
+  list-style: none;
+  li{
+    margin-bottom: 25px;
+  }
+}
+.text-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #499557;
+    
+  }
+}
+.active{
+  color: black !important;
+  }
+.content-wrapper{
+  padding: 20px 0 0;
+  
+}
+.carousel-wrapper{
+  text-align: center;
+}
+
+
+.carousel-caption{
+  position: relative !important;
+  color: black !important;
+  margin-right: 34px;
+  margin-left: -58px;
+}
+
+.carousel-item{
+  width: 250px !important;
+  margin-left: 25px !important;
+  margin-top: 30px !important;
+}
+
+.button {
+  margin-top: 20px;
+  text-transform: none;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: #499557;
+  width: 300px;
+  border: none;
+  height: 40px;
+  align-items: center;
+  color: whitesmoke;
+  font-weight: 700;
+}
+.mob-view{
+  display: none;
+}
+
+@media (max-width:764px) {
+  .test{
+    display: none;
+  }
+  .mob-view{
+    display: block;
+  }
+}
